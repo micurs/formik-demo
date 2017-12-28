@@ -145,5 +145,8 @@ It supports Synchronus and Asynchronous validation for the entire form using Pro
 
 The lack of single field validation handler is the big negative about formik.
 
+However a [PR exists](https://github.com/jaredpalmer/formik/pull/167) to update Filed prop structure that would help implementing fiel level validation.
+
+
 
 
