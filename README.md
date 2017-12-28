@@ -118,7 +118,7 @@ In some cases we may want to perform single field validation to avoid display er
 
 Single field validation is not supported right now in this library :cry: .
 
-However, we can use `form.touched[field.name]` to avoid display error feedback on untouched fileds.
+However, we can use `form.touched[field.name]` to avoid display error feedback on untouched fileds and I assume is possible to validate only the changed filed in the global validation function.
 
 ```typescript
   <Field name="email">
@@ -128,7 +128,7 @@ However, we can use `form.touched[field.name]` to avoid display error feedback o
   </Field>
 ```
 
-? You can see this in action in the [`Form2.tsx`](https://github.com/micurs/formik-demo/blob/master/src/components/form2.tsx) included in this project.
+> You can see this in action in the [`Form2.tsx`](https://github.com/micurs/formik-demo/blob/master/src/components/form2.tsx) included in this project.
 
 Finally, the library does not provide any validation utility, so we can write that any way we want.
 However, the author likes [Yup](https://github.com/jquense/yup) for object schema validation and
@@ -141,9 +141,9 @@ The library is smaller than Redux-Form (!~9.3kB minified and gzipped) and it is 
 It supports Synchronus and Asynchronous validation for the entire form using Promises.
 
 
-## Negatives
+## Cons
 
-The lack of single field validation handler is the big negative about this library.
+The lack of single field validation handler is the big negative about formik.
 
 
 
