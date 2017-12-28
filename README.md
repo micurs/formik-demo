@@ -113,7 +113,10 @@ MyForm = () => (
 
 ## Single field validation
 
-Currently the validation callback perform check on all fileds in a form. In some cases we may want to perform single field validation to avoid display error feedbacks on field not yet reached by the user.
+Currently the validation callback perform check on all fileds in a form.
+In some cases we may want to perform single field validation to avoid display error feedbacks on field not yet reached by the user.
+
+Single field validation is not supported right now in this library :cry: .
 
 However, we can use `form.touched[field.name]` to avoid display error feedback on untouched fileds.
 
