@@ -41,7 +41,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## About Formik
 
-Formik is a library for managing forms in React.
+[Formik](https://github.com/jaredpalmer/formik) is a library for managing forms in React. It keeps track of your form's state and then exposes it with a few reusable methods and event handlers.
 
 Formik does not interact with Redux, the form state is managed locally by the Formik Form without triggering reducers in Redux or any Flux library :thumbsup:.
 
@@ -125,7 +125,7 @@ However, we can use `form.touched[field.name]` to avoid display error feedback o
   </Field>
 ```
 
-You can see this in action in the `Form2.tsx` included in this project.
+? You can see this in action in the [`Form2.tsx`](blob/master/src/components/form2.tsx) included in this project.
 
 Finally, the library does not provide any validation utility, so we can write that any way we want.
 However, the author likes [Yup](https://github.com/jquense/yup) for object schema validation and
