@@ -125,7 +125,7 @@ However, we can use `form.touched[field.name]` to avoid display error feedback o
   </Field>
 ```
 
-? You can see this in action in the [`Form2.tsx`](blob/master/src/components/form2.tsx) included in this project.
+? You can see this in action in the [`Form2.tsx`](https://github.com/micurs/formik-demo/blob/master/src/components/form2.tsx) included in this project.
 
 Finally, the library does not provide any validation utility, so we can write that any way we want.
 However, the author likes [Yup](https://github.com/jquense/yup) for object schema validation and
