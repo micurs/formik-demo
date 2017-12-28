@@ -43,14 +43,16 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Formik is a library for managing forms in React.
 
-Formik does not interact with Redux, the form state is managed locally by the Formik Form without triggering reducers in Redux or any Flux library.
+Formik does not interact with Redux, the form state is managed locally by the Formik Form without triggering reducers in Redux or any Flux library :thumbsup:.
 
-Formik is written in TypeScript so the types will always be up to date.
+Formik is written in TypeScript so the types will always be up to date :thumbsup:.
 
-Formik uses [high-order components](https://reactjs.org/docs/higher-order-components.html) and the `render` approach used in [React-Router 4](https://github.com/ReactTraining/react-router).
+Formik uses [high-order components](https://reactjs.org/docs/higher-order-components.html) and the `render` approach used in [React-Router 4](https://github.com/ReactTraining/react-router) :thumbsup:.
 
-> **Note** : In order to compile your code using  `noImplicitAny:true`
-> in `tsconfig.json` you must install @types/prop-types as additional dev dependency:
+When using this library in TypeScript we can use the `strict:true` setting in `tsconfig.json` :thumbsup: .
+
+> **Note** : In order to compile your code keeping `noImplicitAny:true`
+> we must install @types/prop-types as additional dev dependency:
 
 ```
 yarn add @types/prop-types --dev
@@ -138,7 +140,7 @@ It supports Synchronus and Asynchronous validation for the entire form using Pro
 
 ## Negatives
 
-The lack of a single field validation handler is the negative about this library.
+The lack of single field validation handler is the big negative about this library.
 
 
 
